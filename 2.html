@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+<!-- ЗАДАНИЕ №3: Введите число, например 5, и выведите текстом 5 Яблок, если введено 3 вывести 3 Яблока и т.д. по всем правилам русского языка.-->
+
+<skript>
+    var numToStr = function(num, arrText) {
+        if (num % 10 === 1 && num % 100 !== 11) { 
+          return arrText[0];
+        } else if (num % 10 >= 2 && num % 10 <= 4 && (num % 100 < 10 || num % 100 >= 20)) {
+          return arrText[1];            
+        }
+        return arrText[2];
+      }
+</script>
+ 
+</body>
+</html>
