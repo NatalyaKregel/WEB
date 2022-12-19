@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- ЗАДАНИЕ №3: Введите число, например 5, и выведите текстом 5 Яблок, если введено 3 вывести 3 Яблока и т.д. по всем правилам русского языка.-->
+
+<input id="name" placeholder="Сколько яблок?">
+<button onclick="out()">ВЫВОД</button>
+<input id="result" value="0">
+
+<script>
+    function out() 
+    {
+      const name = document.getElementById("name").value;
+      let result = `${name} яблок`;
+      document.getElementById("result").value = result;
+      //if (result == 1) 
+      //{ alert(result, 'яблоко');}
+      //else if (result==2) or (result==3) 
+      //{ alert(result,'яблока');}
+      //else {alert(result,'яблок');}
+    }
+</script>
+</body>
+</html>
