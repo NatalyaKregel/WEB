@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hospital>
+	<department_1>
+		<ward_1>
+		    <patients>
+		        <patient1>
+		            <name>Иванова Полина Сергеевна</name>
+		            <age>81 год</age>
+		            <city>Москва</city>
+		            <diagnos>Гипертония</diagnos>
+		            <complaints>Сильная головная боль </complaints>
+		        </patient1>
+		        <patient2>
+		            <name>Петрова Ольга Тимофеевна</name>
+		            <age>62 год</age>
+		            <city>Волгоград</city>
+		            <diagnos>Диабет</diagnos>
+		            <complaints>Головокружение </complaints>
+		        </patient2>
+		        <patient3>
+		            <name>Кротова Елена Еремеевна</name>
+		            <age>85 год</age>
+		            <city>Москва</city>
+		            <diagnos>Атеросклероз</diagnos>
+		            <complaints>Слабость</complaints>
+		        </patient3>
+		    </patients>
+		    <doctors>
+		        <doctor1>
+		            <name>Крючков Павел Сергеевич</name>
+		            <category>высшая</category>
+		            <specialization>кардиолог</specialization>
+		            <pocket>
+		                <item>Ручка</item>
+		                <item>Градусник</item>
+		                <item>Стетоскоп</item>
+		            </pocket>
+		        </doctor1>
+		        <doctor2>
+		            <name>Негрей Олег Юрьевич</name>
+		            <category>1 категория</category>
+		            <specialization>терапевт</specialization>
+		            <pocket>
+		                <item>Ручка</item>
+		                <item>Блокнот</item>
+		                <item>Стетоскоп</item>
+		            </pocket>
+		        </doctor2>
+		        <doctor3>
+		            <name>Хромов Петр Евсеевич</name>
+		            <category>энтерн</category>
+		            <specialization>общая практика</specialization>
+		            <pocket>
+		                <item>Ручка</item>
+		                <item>Блокнот</item>
+		                <item>Жвачка</item>
+		            </pocket>
+		        </doctor3>
+		    </doctors>
+		</ward_1>
+		
+		<ward_2>
+		    <patients>
+		        <patient1>
+		            <name>Солнцева Екатеерина Адамовна</name>
+		            <age>55 год</age>
+		            <city>Москва</city>
+		            <diagnos>Гипертония</diagnos>
+		            <complaints>Слабость, потеря сознания</complaints>
+		        </patient1>
+		        <patient2>
+		            <name>Маслова Ксения Петровна</name>
+		            <age>72 год</age>
+		            <city>Ярославль</city>
+		            <diagnos>Диабет</diagnos>
+		            <complaints>Высокий сахар, сонливость</complaints>
+		        </patient2>
+		        <patient3>
+		            <name>Волосова Елизавета Дмитриевна</name>
+		            <age>77 год</age>
+		            <city>Питер</city>
+		            <diagnos>Атеросклероз</diagnos>
+		            <complaints>Боль в ногах, слабость</complaints>
+		        </patient3>
+		    </patients>
+		    <doctors>
+		        <doctor1>
+		            <name>Морозов Александр Павлович</name>
+		            <category>высшая</category>
+		            <specialization>кардиолог</specialization>
+		            <pocket>
+		                <item>Телефон</item>
+		                <item>Градусник</item>
+		                <item>Стетоскоп</item>
+		            </pocket>
+		        </doctor1>
+		        <doctor2>
+		            <name>Сухова Оксана Викторовна</name>
+		            <category>2 категория</category>
+		            <specialization>кардиолог</specialization>
+		            <pocket>
+		                <item>Ручка</item>
+		                <item>Блокнот</item>
+		                <item>Кашелек</item>
+		            </pocket>
+		        </doctor2>
+		    </doctors>
+		</ward_2>
+	</department_1>
+</hospital>
